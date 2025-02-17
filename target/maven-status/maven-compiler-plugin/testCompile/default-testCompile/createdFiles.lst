@@ -1,0 +1,6 @@
+co\edu\unicauca\mycompany\projects\access\FactoryTest.class
+co\edu\unicauca\mycompany\projects\access\CompanyArraysRepositoryTest.class
+co\edu\unicauca\mycompany\projects\domain\services\DataValidationCompanyTest.class
+co\edu\unicauca\mycompany\projects\domain\entities\CompanyTest.class
+co\edu\unicauca\mycompany\projects\domain\services\CompanyServiceTest.class
+co\edu\unicauca\mycompany\projects\access\CompanySqliteRepositoryTest.class
