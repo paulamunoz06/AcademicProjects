@@ -32,7 +32,7 @@ public class DataValidationCompany implements IValidation{
     @Override
     public boolean isValid()throws ValidationException{
         String validationEmail = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,6}$";
-        String validationPassword = "^(?=.*[A-Z])(?=.*[!@#$%^&*\\-_]).{6,}$";
+        String validationPassword = "^(?=.*[A-Z])(?=.*[!@#$%^&*\\-_.]).{6,}$";
         
         if(company.getNit().isBlank() || company.getNit()==null) throw new ValidationException("El NIT es obligatorio", "nit");
         else if(company.getName().isBlank()  || company.getName()==null) throw new ValidationException("El nombre es obligatorio", "nombre");
